@@ -32,7 +32,7 @@ function App() {
   }, []);
 
   let size = {
-    width: 90,
+    width: 100,
     heigth: 100 
   };
 
