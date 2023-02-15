@@ -19,7 +19,7 @@ function feliz(){
 
 function reset(){
     var elem = document.getElementById("bot1");
-    elem.style.backgroundColor = 'white'
+    elem.style.backgroundColor = 'whitesmoke'
 }
 
 function reboot(){
