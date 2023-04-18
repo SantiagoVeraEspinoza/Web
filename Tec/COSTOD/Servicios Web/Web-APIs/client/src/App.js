@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from "react";
+import Text from './components/text';
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -28,6 +29,9 @@ function App() {
         <p>
           {!data ? "Loading..." : data}
         </p>
+        <div>
+          <Text />
+        </div>
       </header>
     </div>
   );
